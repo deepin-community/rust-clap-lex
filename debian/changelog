@@ -1,5 +1,12 @@
-template-repository (1.0-1) unstable; urgency=medium
+rust-clap-lex (0.3.0-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Package clap_lex 0.3.0 from crates.io using debcargo 2.6.0
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Peter Michael Green <plugwash@debian.org>  Tue, 10 Jan 2023 09:54:34 +0100
+
+rust-clap-lex (0.2.4-1) unstable; urgency=medium
+
+  * Package clap_lex 0.2.4 from crates.io using debcargo 2.5.0
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 28 Jul 2022 07:17:22 +0200

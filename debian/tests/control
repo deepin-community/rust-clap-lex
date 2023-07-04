@@ -1,0 +1,14 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test clap_lex 0.3.0 --all-targets --all-features
+Features: test-name=rust-clap-lex:@
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test clap_lex 0.3.0 --all-targets
+Features: test-name=librust-clap-lex-dev:default
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test clap_lex 0.3.0 --all-targets --no-default-features
+Features: test-name=librust-clap-lex-dev:
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
