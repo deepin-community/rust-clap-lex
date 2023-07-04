@@ -1,18 +1,28 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: clap_lex
-Upstream-Contact: Kevin B. Knapp <kbknapp@gmail.com>
+Upstream-Contact: FIXME (overlay) UNKNOWN-AUTHORS
 Source: https://github.com/clap-rs/clap/tree/master/clap_lex
 
 Files: *
-Copyright:
- 2015-2022 Kevin B. Knapp <kbknapp@gmail.com>
- 2015-2022 `clap-rs` contributors
-License: MIT
+Copyright: FIXME (overlay) UNKNOWN-AUTHORS FIXME (overlay) UNKNOWN-YEARS
+License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: LICENSE-MIT
+Copyright: 2015-2022 Kevin B. Knapp and Clap Contributors
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
- 2022 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
- 2022 Reinhard Tartler <siretart@tauware.de>
+ 2022-2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2022-2023 Reinhard Tartler <siretart@tauware.de>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
